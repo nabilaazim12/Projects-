@@ -1,2 +1,1 @@
-# Projects-
-Class and Personal projects
+# Projects (Lyrics LookUp)
