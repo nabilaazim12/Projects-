@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lyrics Finder</title>
+		<style>
+			body, form{
+				margin:20px auto;
+				max-width:800px;
+				overflow-x:hidden;
+			}
+			fieldset{
+				display: flex;
+			}
+			input#description{
+				flex-grow:50;
+				margin: 0 20px;
+			}
+			input#location{
+				flex-grow:50;
+				margin: 0 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="search" method="get">
+			<fieldset>
+				<legend>Lyrics API Search</legend>
+				<label for="description">Lyrics Lookup:</label>
+				<input id="description" name="artist" type="text" />
+				<input id="description" name="title" type="text" />
+				<input type="submit" />
+			</fieldset>
+		</form>
+	</body>
+</html>
